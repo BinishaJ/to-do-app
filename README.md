@@ -28,7 +28,7 @@ Todo Application using NestJS, PostgreSQL with User Authentication and JWT Authe
 
 ## Environment Variables
 
-````
+```
 .env file
 
 DATABASE_HOST
@@ -40,6 +40,7 @@ JWT_KEY
 JWT_EXPIRE
 
 ```
+
 ## Installation
 
 ```bash
@@ -85,4 +86,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
-````
+
+```
+
+```
