@@ -41,7 +41,6 @@ JWT_KEY
 JWT_EXPIRE
 
 PORT
-
 ```
 
 ## Installation
@@ -80,6 +79,90 @@ $ npm run test:cov
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-```
+# Screenshots
 
-```
+<details>
+  <summary>User Signup</summary>
+
+![Alt text](image.png)
+
+### Duplicate email
+
+![Alt text](image-15.png)
+
+</details>
+
+<details>
+  <summary>User Login</summary>
+
+### Correct Password
+
+![Alt text](image-1.png)
+
+### Incorrect Password
+
+![Alt text](image-2.png)
+
+</details>
+
+<details>
+  <summary>Get List of users / Delete</summary>
+
+### Normal User
+
+![Alt text](image-5.png)
+
+### Admin
+
+![Alt text](image-6.png)
+
+</details>
+
+<details>
+  <summary>Create new todo</summary>
+
+### Creates new todo for the user by extracting user id from the JWT token in header
+
+![Alt text](image-7.png)
+
+</details>
+
+<details>
+  <summary>Uncompleted todos</summary>
+
+### List of uncompleted todos for the user by extracting user id from the JWT token in header
+
+![Alt text](image-8.png)
+
+</details>
+
+<details>
+  <summary>Complete the todo</summary>
+
+### Unauthorized if another user tries to mark the todo as complete
+
+![Alt text](image-9.png)
+
+### Mark the todo complete
+
+![Alt text](image-10.png)
+
+</details>
+
+<details>
+  <summary>Completed todos</summary>
+
+### List of completed todos for the user by extracting user id from the JWT token in header
+
+![Alt text](image-12.png)
+
+</details>
+
+<details>
+  <summary>Delete todo</summary>
+  
+  ### Unauthorized if another user tries to delete the todo
+  ![Alt text](image-13.png)
+  ### Delete todo
+  ![Alt text](image-14.png)
+</details>
