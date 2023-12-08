@@ -27,9 +27,8 @@
 Todo Application using NestJS, PostgreSQL with User Authentication and JWT Authentication and Swagger Docs
 
 ## Environment Variables
-
+### .env file
 ```
-.env file
 
 DATABASE_HOST
 DATABASE_PORT
@@ -84,11 +83,11 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 <details>
   <summary>User Signup</summary>
 
-![Alt text](image.png)
+![image](https://github.com/BinishaJ/to-do-app/assets/69308583/aaaecc70-8b2d-4943-9bb2-a4977540872c)
 
 ### Duplicate email
 
-![Alt text](image-15.png)
+![image](https://github.com/BinishaJ/to-do-app/assets/69308583/87dcf6f5-5588-48cd-a1af-df5c52cf6644)
 
 </details>
 
@@ -97,11 +96,11 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ### Correct Password
 
-![Alt text](image-1.png)
+![image](https://github.com/BinishaJ/to-do-app/assets/69308583/b7d72ee8-0d7f-48ef-8cc1-23a4078fe99b)
 
 ### Incorrect Password
 
-![Alt text](image-2.png)
+![image](https://github.com/BinishaJ/to-do-app/assets/69308583/0848d4a4-f87a-4b1b-8a34-56bf19f9fc45)
 
 </details>
 
@@ -110,11 +109,11 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ### Normal User
 
-![Alt text](image-5.png)
+![image](https://github.com/BinishaJ/to-do-app/assets/69308583/0c4f9596-535c-4697-8630-b7402f0620de)
 
 ### Admin
 
-![Alt text](image-6.png)
+![image](https://github.com/BinishaJ/to-do-app/assets/69308583/781d052a-62dd-4c20-991e-f524ffddd754)
 
 </details>
 
@@ -123,7 +122,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ### Creates new todo for the user by extracting user id from the JWT token in header
 
-![Alt text](image-7.png)
+![image](https://github.com/BinishaJ/to-do-app/assets/69308583/44204a49-5f5a-4c83-8c8b-680df0c1d4b2)
 
 </details>
 
@@ -132,7 +131,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ### List of uncompleted todos for the user by extracting user id from the JWT token in header
 
-![Alt text](image-8.png)
+![image](https://github.com/BinishaJ/to-do-app/assets/69308583/8381aaf2-6094-4dc2-9c85-7346d9c23a6a)
 
 </details>
 
@@ -141,11 +140,11 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ### Unauthorized if another user tries to mark the todo as complete
 
-![Alt text](image-9.png)
+![image](https://github.com/BinishaJ/to-do-app/assets/69308583/dad7d976-cd19-4ed8-a335-a82c740b3b50)
 
 ### Mark the todo complete
 
-![Alt text](image-10.png)
+![image](https://github.com/BinishaJ/to-do-app/assets/69308583/bdabd2aa-9062-4835-8953-9b214eaa40cf)
 
 </details>
 
@@ -154,7 +153,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ### List of completed todos for the user by extracting user id from the JWT token in header
 
-![Alt text](image-12.png)
+![image](https://github.com/BinishaJ/to-do-app/assets/69308583/3f434e07-1724-41f2-94ac-f0dce31a9200)
 
 </details>
 
@@ -162,7 +161,11 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
   <summary>Delete todo</summary>
   
   ### Unauthorized if another user tries to delete the todo
-  ![Alt text](image-13.png)
+  
+![image](https://github.com/BinishaJ/to-do-app/assets/69308583/8aeb463b-cf8a-4d1e-a96e-041a7a0bc9b7)
+
   ### Delete todo
-  ![Alt text](image-14.png)
+  
+![image](https://github.com/BinishaJ/to-do-app/assets/69308583/487517bc-a053-4ff7-93c4-396ad9888c7f)
+
 </details>
