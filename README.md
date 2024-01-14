@@ -57,24 +57,16 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
 # Screenshots
+<details>
+  <summary>Swagger UI</summary>
+  
+  ![image](https://github.com/BinishaJ/to-do-app/assets/69308583/c8815b6b-41c1-4d0a-b4e1-34e78dc3ca09)
+  ![image](https://github.com/BinishaJ/to-do-app/assets/69308583/2d2ddc5a-8aa3-448d-813b-00ae65485cfe)
+  ![image](https://github.com/BinishaJ/to-do-app/assets/69308583/cf3df17d-83e5-46d0-b955-6f6c5c8bcd6c)
+
+
+</details>
 
 <details>
   <summary>User Signup</summary>
